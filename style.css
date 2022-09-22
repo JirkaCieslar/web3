@@ -1,0 +1,108 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:1em;
+ background:#000 url(stars5.png) repeat top center;
+}
+h1{
+	font-size:6em;
+	font-family:'Lato', sans-serif;
+	margin-top:0.5em;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+
+	 background-image:linear-gradient(to right, #8774a4,#e8daed) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 2px 2px 5px #8774a4;
+	
+	display:block;
+	position:relative;
+	z-index: 3;
+	
+}
+p{
+	font-size:1.5em;
+    text-align:center;
+    margin-left: 30%;
+    margin-right: 30%;
+	display:block;
+	
+	z-index: 3;
+		background-image:linear-gradient(to right, #8774a4,#e8daed) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+	
+}
+.nav{
+    overflow: hidden;
+
+       
+}
+.nav a {
+    display: block;
+    float:left;
+    color:#b388eb;
+    text-align: center;
+    padding:0.5em;
+    text-decoration: none;
+    font-size: 1.125rem;
+	display:block;
+	position:relative;
+	z-index: 3;
+		background-image:linear-gradient(to right, #8774a4,#e8daed) ;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+.nav a:hover{
+      background-image:linear-gradient(to right, #FFC8DD,#FFF6F9) ;
+}
+.vle{
+	float:left;
+	 transform: rotate(-10deg);
+	
+	
+}
+img{
+	float:right;
+	padding:0.5em;
+    background-color: #8774a4;
+      box-shadow: 5px 5px 10px #FFC8DD;
+}
+.prvni{
+	padding-top:3em;
+}
+.hr{
+	float:right;
+     transform: rotate(10deg);
+
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+.konec
+{
+    padding-top: 7em;
+   
+}
+@media screen and (max-width:960px){
+        img,.hr,.vle, img:hover{
+       width:100%;
+       float:none;
+       transform:none;
+        
+   
+    }
+}
+@media screen and (max-width:800px){
+    p,h1
+    {
+        width: 100%;
+        margin:auto;
+        text-align: center;
+      
+        }
+
